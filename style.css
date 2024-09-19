@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(127, 163, 151);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p {
+    color: #ECE8EB;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: justify;
+}
+#parrafo1 {
+    text-align: center;
+}
+h1 {
+    color : rgb(37, 52, 50);
+    font-size: 35px;
+    text-align: center;
+}
+h2 {
+    color: rgb(37, 52, 50);
+    font-size: 30px;
+    text-align: center;
+}
+h3 {
+    color: rgb(37, 52, 50);
+    font-size: 30px;
+    text-align: left;
+}
+/*---------------------SLIDER-----------------------------*/
+.contenedor-slider {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: -30px;
+    margin-bottom: 20px;
+}
+.slider-screen {
+    width: 100%;
+    padding: 20px 40px;
+}
+.slider-screen img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+#slider-arrow {
+    width: 91%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+.slider-izquierdo, .slider-derecho {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgba(105, 105, 105, 0.3);
+}
+.slider-izquierdo img, .slider-derecho img {
+    width: 20px;
+    height: 20px;
+}
+
